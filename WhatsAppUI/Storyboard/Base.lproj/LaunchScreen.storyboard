@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontsFree-Net-SFProText-Regular.ttf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UJO-3c-O5t">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whatsappIcon" translatesAutoresizingMaskIntoConstraints="NO" id="yOe-Ka-uFu">
+                                <rect key="frame" x="134" y="279" width="125" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="09u-fb-MbC"/>
+                                    <constraint firstAttribute="height" constant="125" id="i3a-PS-R6a"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WhatsApp UI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwp-2Z-w2b">
+                                <rect key="frame" x="97.666666666666671" y="429" width="197.66666666666663" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="azS-Rs-v6L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made with ❤️ by 🚀" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZ9-x4-hX1">
+                                <rect key="frame" x="118" y="516" width="157" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v 1.0.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9IW-VM-eTZ">
+                                <rect key="frame" x="174" y="547" width="45.333333333333343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gY6-l1-ytu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Nwp-2Z-w2b" firstAttribute="centerX" secondItem="UJO-3c-O5t" secondAttribute="centerX" id="2Y3-5C-fyb"/>
+                            <constraint firstItem="9IW-VM-eTZ" firstAttribute="top" secondItem="cZ9-x4-hX1" secondAttribute="bottom" constant="10" id="7Uh-LZ-tWP"/>
+                            <constraint firstItem="Nwp-2Z-w2b" firstAttribute="top" secondItem="yOe-Ka-uFu" secondAttribute="bottom" constant="25" id="IhJ-Av-Jgl"/>
+                            <constraint firstItem="cZ9-x4-hX1" firstAttribute="centerX" secondItem="UJO-3c-O5t" secondAttribute="centerX" id="UUf-eL-7UQ"/>
+                            <constraint firstItem="yOe-Ka-uFu" firstAttribute="centerX" secondItem="UJO-3c-O5t" secondAttribute="centerX" id="ZEH-fr-y16"/>
+                            <constraint firstItem="cZ9-x4-hX1" firstAttribute="top" secondItem="Nwp-2Z-w2b" secondAttribute="bottom" id="ZgP-Du-ppK"/>
+                            <constraint firstItem="9IW-VM-eTZ" firstAttribute="centerX" secondItem="UJO-3c-O5t" secondAttribute="centerX" id="dQT-mQ-IRB"/>
+                            <constraint firstItem="yOe-Ka-uFu" firstAttribute="top" secondItem="gY6-l1-ytu" secondAttribute="top" constant="220" id="fPs-g0-D8Z"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="whatsappIcon" width="248" height="248"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

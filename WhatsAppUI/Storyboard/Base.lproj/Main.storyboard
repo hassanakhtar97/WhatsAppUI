@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RO9-0r-Sm9">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar View Controller-->
+        <scene sceneID="ZeT-Wq-r6n">
+            <objects>
+                <tabBarController id="RO9-0r-Sm9" customClass="TabBarViewController" customModule="WhatsAppUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="bjH-fM-fgG">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="selectedImageTintColor" systemColor="linkColor"/>
+                        <tabBarAppearance key="standardAppearance" backgroundEffect="systemThinMaterial"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ThK-9e-5PQ" kind="relationship" relationship="viewControllers" id="bCB-fW-OuJ"/>
+                        <segue destination="hiY-10-C5T" kind="relationship" relationship="viewControllers" id="ISK-9a-lcq"/>
+                        <segue destination="dG5-XH-Rc6" kind="relationship" relationship="viewControllers" id="Czi-PT-RkE"/>
+                        <segue destination="2Sp-MZ-XSD" kind="relationship" relationship="viewControllers" id="cq9-Wh-3sN"/>
+                        <segue destination="xuh-CD-TLT" kind="relationship" relationship="viewControllers" id="px8-bb-9na"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pY9-UC-x7w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2057" y="-1955"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MdX-Yu-Iou">
+            <objects>
+                <navigationController id="ThK-9e-5PQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" id="QNg-pD-Ah6">
+                        <color key="badgeColor" name="AccentColor"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="vBQ-Bu-S4r">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="87T-ml-JfA" kind="relationship" relationship="rootViewController" id="J3q-pV-QxP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hts-Y6-2PI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3416" y="-1030"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4re-1r-Ltc">
+            <objects>
+                <navigationController id="hiY-10-C5T" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" id="Mm2-7V-pcP">
+                        <color key="badgeColor" name="AccentColor"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="8jX-oA-Btl">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="yTA-op-hdf" kind="relationship" relationship="rootViewController" id="HN3-vw-3pK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c8l-gy-e8i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2737" y="-1030"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="znp-qG-Q2v">
+            <objects>
+                <navigationController id="dG5-XH-Rc6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" id="QSl-ds-EEx">
+                        <color key="badgeColor" name="AccentColor"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="UbO-pn-BNS">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="r55-8x-kEy" kind="relationship" relationship="rootViewController" id="uaV-5R-A2r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hqz-hW-EmA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2057" y="-1030"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3Ux-9n-xLy">
+            <objects>
+                <navigationController id="xuh-CD-TLT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" id="T86-8b-odI">
+                        <color key="badgeColor" name="AccentColor"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="UMY-bF-ps3">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="egC-uY-5vC" kind="relationship" relationship="rootViewController" id="I1f-cb-oPN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wGE-g5-2Cr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-702" y="-1030"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SFM-M9-3Ed">
+            <objects>
+                <navigationController id="2Sp-MZ-XSD" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" id="J1R-wl-YwF">
+                        <color key="badgeColor" name="AccentColor"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="0US-lf-zHO">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zrF-Ye-UUF" kind="relationship" relationship="rootViewController" id="bng-em-xHi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iuF-gu-I3U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1378" y="-1030"/>
+        </scene>
+        <!--Status-->
+        <scene sceneID="7a2-ka-tuw">
+            <objects>
+                <viewController id="87T-ml-JfA" customClass="StatusViewController" customModule="WhatsAppUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1v9-2Y-WUc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="SRa-g9-CMA">
+                                <rect key="frame" x="0.0" y="155" width="393" height="697"/>
+                                <color key="backgroundColor" name="appAppearenceColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bqr-Vd-UNZ"/>
+                        <color key="backgroundColor" name="appAppearenceColor"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SRa-g9-CMA" firstAttribute="trailing" secondItem="Bqr-Vd-UNZ" secondAttribute="trailing" id="1bH-DB-6px"/>
+                            <constraint firstAttribute="bottom" secondItem="SRa-g9-CMA" secondAttribute="bottom" id="7bP-Ib-znb"/>
+                            <constraint firstItem="SRa-g9-CMA" firstAttribute="top" secondItem="Bqr-Vd-UNZ" secondAttribute="top" id="U5Y-xw-3aX"/>
+                            <constraint firstItem="SRa-g9-CMA" firstAttribute="leading" secondItem="Bqr-Vd-UNZ" secondAttribute="leading" id="hll-cI-QFa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Status" id="1zs-Uc-i4d">
+                        <barButtonItem key="leftBarButtonItem" title="Privacy" id="Vcr-sb-unl"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="SRa-g9-CMA" id="dQK-Qq-vFG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5KT-Ek-zjv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3416.030534351145" y="-270.42253521126764"/>
+        </scene>
+        <!--Calls-->
+        <scene sceneID="4Nd-DQ-798">
+            <objects>
+                <viewController id="yTA-op-hdf" customClass="CallsViewController" customModule="WhatsAppUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s81-ch-qaR">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="c3Z-Bk-0NH">
+                                <rect key="frame" x="0.0" y="155" width="393" height="697"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6T5-xG-qSh"/>
+                        <color key="backgroundColor" name="appAppearenceColor"/>
+                        <constraints>
+                            <constraint firstItem="c3Z-Bk-0NH" firstAttribute="top" secondItem="6T5-xG-qSh" secondAttribute="top" id="7j0-jT-foA"/>
+                            <constraint firstAttribute="bottom" secondItem="c3Z-Bk-0NH" secondAttribute="bottom" id="9oW-hs-u9c"/>
+                            <constraint firstItem="c3Z-Bk-0NH" firstAttribute="trailing" secondItem="6T5-xG-qSh" secondAttribute="trailing" id="QQ4-CK-lW3"/>
+                            <constraint firstItem="c3Z-Bk-0NH" firstAttribute="leading" secondItem="6T5-xG-qSh" secondAttribute="leading" id="kWA-HF-3Xd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Calls" id="yGt-HI-eZ9">
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="o6R-5P-hdO"/>
+                        <segmentedControl key="titleView" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="jfa-A6-rQC">
+                            <rect key="frame" x="133" y="5.6666666666666679" width="127" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <segments>
+                                <segment title="All"/>
+                                <segment title="Missed"/>
+                            </segments>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="selectedSegmentTintColor" name="inAppBlueColor"/>
+                        </segmentedControl>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="phone.arrow.up.right" catalog="system" id="0Rq-Co-Jvy"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="callSegmentControl" destination="jfa-A6-rQC" id="MCR-oz-1eA"/>
+                        <outlet property="tableView" destination="c3Z-Bk-0NH" id="bPW-Jb-jIz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JpS-Oz-7RW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2738.1679389312976" y="-270.42253521126764"/>
+        </scene>
+        <!--Camera-->
+        <scene sceneID="Gng-BX-ztW">
+            <objects>
+                <viewController id="r55-8x-kEy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cac-ZH-2fG">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bG4-eM-z7p"/>
+                        <color key="backgroundColor" name="appAppearenceColor"/>
+                        <color key="tintColor" name="appAppearenceColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Camera" id="SXu-6Z-d3t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jy0-Uh-35M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2057" y="-270"/>
+        </scene>
+        <!--Chats-->
+        <scene sceneID="34I-R5-Yht">
+            <objects>
+                <viewController id="zrF-Ye-UUF" customClass="ChatsViewController" customModule="WhatsAppUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qJb-iM-ydd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="uQB-pe-Z8K">
+                                <rect key="frame" x="0.0" y="155" width="393" height="697"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="separatorInset" minX="80" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Kbi-O7-A9l"/>
+                        <color key="backgroundColor" name="appAppearenceColor"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uQB-pe-Z8K" firstAttribute="trailing" secondItem="Kbi-O7-A9l" secondAttribute="trailing" id="gcX-Fq-QjP"/>
+                            <constraint firstAttribute="bottom" secondItem="uQB-pe-Z8K" secondAttribute="bottom" id="gpU-bg-N1c"/>
+                            <constraint firstItem="uQB-pe-Z8K" firstAttribute="top" secondItem="Kbi-O7-A9l" secondAttribute="top" id="pvZ-xT-ZfL"/>
+                            <constraint firstItem="uQB-pe-Z8K" firstAttribute="leading" secondItem="Kbi-O7-A9l" secondAttribute="leading" id="w8s-6g-gkB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Chats" id="gxO-Sf-vu3">
+                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="K1S-Gt-J38"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="edit" id="CYg-T0-ZTH"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="uQB-pe-Z8K" id="0OG-qw-MQv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uXu-tp-x8d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1379.3893129770993" y="-270.42253521126764"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="7YU-Rs-vkd">
+            <objects>
+                <viewController id="egC-uY-5vC" customClass="SettingsViewController" customModule="WhatsAppUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AhO-Ii-Ues">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="cni-uS-fo6">
+                                <rect key="frame" x="0.0" y="155" width="393" height="697"/>
+                                <color key="backgroundColor" name="appAppearenceColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="e5g-ii-Pd2"/>
+                        <color key="backgroundColor" name="appAppearenceColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="cni-uS-fo6" secondAttribute="bottom" id="7he-Wf-oGu"/>
+                            <constraint firstItem="cni-uS-fo6" firstAttribute="trailing" secondItem="e5g-ii-Pd2" secondAttribute="trailing" id="Fu8-in-utJ"/>
+                            <constraint firstItem="cni-uS-fo6" firstAttribute="top" secondItem="e5g-ii-Pd2" secondAttribute="top" id="Ls1-Ij-f9R"/>
+                            <constraint firstItem="cni-uS-fo6" firstAttribute="leading" secondItem="e5g-ii-Pd2" secondAttribute="leading" id="SWA-Zq-od1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="etw-kk-fyM"/>
+                    <connections>
+                        <outlet property="tableView" destination="cni-uS-fo6" id="WDr-oT-9Yv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DUv-dG-eiI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-703.05343511450383" y="-270.42253521126764"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="edit" width="23" height="23"/>
+        <image name="phone.arrow.up.right" catalog="system" width="128" height="115"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="appAppearenceColor">
+            <color red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="inAppBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
