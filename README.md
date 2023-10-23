@@ -11,7 +11,7 @@ WhatsAppUI clone built using AutoLayout with Swift5. Figma file can be found [he
 
 
 ## Demo
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/MPDL6cK"><a href="//imgur.com/MPDL6cK"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src=https://imgur.com/a/MPDL6cK/>
 
 ## Features
 
