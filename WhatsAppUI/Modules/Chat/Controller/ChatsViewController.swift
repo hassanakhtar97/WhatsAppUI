@@ -12,10 +12,12 @@ final class ChatsViewController: UIViewController, UITableViewDataSource, UITabl
     // MARK:- IBOutlets
     
     @IBOutlet weak var tableView: UITableView!
-   
+    let searchController = UISearchController(searchResultsController: nil)
+    
     // MARK:- Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.searchController = searchController
         setupTableView()
     }
     
